@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --boxshadow:0.5rem 1.5rem rgba(0,0,0,1);
+}
+body{
+    background:rgba(0,0,0,0.7) url('food.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    display: flex;
+    /*height: 100px;*/
+    /*background-color: black;*/
+    
+}
+.container img {
+    max-width: 100%;
+    max-height:100%;
+    margin-left: 50%;
+    
+}
+.cat{
+    height: 80px;
+    width: 80px;
+}
+.container h1{
+     margin-top: 5px;
+     color: red;
+     margin-left: 5px;
+     cursor: pointer;
+     padding-right: 14%;
+}
+.navbar{
+    
+    top: 0;
+    left: 0;
+    padding:0;
+    display: table-row;
+    
+}
+
+ 
+.navbar ul li {
+    display: inline-flex;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    border: 0.7rem solid transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+    background: none;
+}
+.a:hover{
+    color:orangered;
+    border-radius: 10%;
+  }
+.b:hover{
+    color:  orangered;
+    border-radius: 10%;
+}
+.c:hover{
+    color: orangered;
+    border-radius: 10%;
+} 
+.d:hover{
+    color: orangered;
+    border-radius: 10%;
+} 
+.navbar .signin {
+    
+    padding: 6px;
+    background-color: orangered;
+}
+.container .icon i{
+    color: #fff;
+    text-decoration: none;
+    border: 0.7rem solid transparent;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+    background: #cdaa7c;
+    
+}
+.m :hover{
+    color: #fff;
+    background: #cdaa7c;
+    transform: rotate(360deg);
+}
+.content{
+    margin-top: 18%;
+    color: #fff;
+    text-align: center;
+}
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.content h2{
+    font-family: Arial;
+    font-size: 50px;
+}
+
+section{
+    padding: 8rem 9%;
+    margin-top: 10%;
+}
+.heading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.subhead{
+    text-align: center;
+    color: orangered;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    background: rgb(126, 123, 123);
+    display: inline-block;
+}
+.welcome .boxcontainer{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 10px;   
+}
+.welcome .boxcontainer .box{
+    width: 33.333%;
+    
+    
+}
+.welcome .boxcontainer .box .image{
+    height: 25rem;
+    width: 100%;
+    
+    overflow: hidden;
+    position: relative;
+}
+.welcome .boxcontainer .box .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.img1 :hover{
+    transform: scale(1.1);
+}
+.welcome .boxcontainer .box .content{
+    position: inherit;
+    margin: left 5%;
+}
+.welcome .boxcontainer .box .content h3{
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 800;
+    position: relative;
+}
+.welcome .boxcontainer .box .content a{
+    margin-left: 20%;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    left: -10%;
+    border: 0.3rem solid #cdaa7c;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    z-index: 1;
+    position: relative;
+    padding: 0.3rem 3rem;
+    overflow: hidden;
+}
+.btn::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #cdaa7c;
+    z-index: -1;
+    position:absolute;
+    top: 0;
+    left: 100%;
+    transition: 0.5s;
+
+}
+.btn1:hover::before{
+    left: 0;
+  }

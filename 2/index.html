@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music view</title>
+    <link rel="stylesheet" type="" href="style1.css">
+    <script type="text/JavaScript">
+        var mysound = document.getElementById("mysound");
+        var icon = document.getElementById("icon");
+        
+        function yfunction() {
+            var mysound = document.getElementById("mysound");
+            var icon = document.getElementById("icon");
+            /*mysound.play();*/
+             if (mysound.paused) {
+         
+                        
+                        mysound.play();
+                        
+                        icon.src =
+        "pause.png";
+                    } else {
+         
+                        
+                        mysound.pause();
+                        icon.src =
+        "play.png";
+                    }
+                }
+            </script>
+</head>
+<body>
+    <div class="container">
+        <h2>musiq range 🎶</h2></div>
+    <nav class="navbar">
+        <!-- <ul class="navcontent">
+            <li> <a class="a" href="#">HOME</a></li>
+            <li> <a class="b" href="#">ABOUT</a></li>
+            <li> <a class="c" href="#">MENU</a></li>
+            <li> <a class="d" href="#">CONTACT</a></li>
+        </ul> -->
+        
+    </nav><audio id="mysound" src="Deepam-Deepam.mp3" autoplay="false"></audio>
+    <!--<source id="mysound" src="Deepam-Deepam.mp3" type="mp3">-->
+    <div class="image">
+        <button type="button" onclick="yfunction();"><img src="play.png" id="icon"/></button>
+    </div>
+        
+</body>
+</html>
