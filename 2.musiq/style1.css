@@ -23,19 +23,22 @@ button{
 }
 
 .image{
-    margin-top: 20%;
+   margin-top: 20%;
     margin-left: 50%;
-    transition:  4s ease;
-
+    text-align:center;
+}
+.image h1{
+    color:#fff;
+    font-family:'Roboto';
    
 }
+
 #icon{
-    width: 70px;
-    height: 70px;
+    text-align:center;
+    width: 80px;
+    height:80px;
 }
-#icon:hover{
-    transform: scale(1.4);
-}
+
 
 
 .container h2{
@@ -45,43 +48,7 @@ button{
      cursor: pointer;
      
 }
-/* .navbar .navcontent{
-    
-    justify-items: center;
-    margin-left: 70%;
-} */
- 
-/* .navbar ul li {
-    display: inline-block;
-    padding: 15px;
-    text-transform: capitalize;
-}
-.navbar ul li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 4px;
-    font-weight: bold;
-    transition: 3.5s;
-    cursor: pointer;
-    background: none;
-}
-.a:hover{
-    background: orangered;
-  }
-.b:hover{
-    background: orangered;
-}
-.c:hover{
-    background: orangered;
-} 
-.d:hover{
-    background: orangered;
-} 
-.navbar .signin {
-    
-    padding: 6px;
-    background-color: orangered;
-} */
+
 .content{
     position: absolute;
     color: #fff;
